@@ -5,7 +5,7 @@ Resources:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
       KeyName: poppy-key
-      ImageId: 'ami-005bdb005fb00e791' 
+      ImageId: 'ami-08bac620dc84221eb' 
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
     Properties:
